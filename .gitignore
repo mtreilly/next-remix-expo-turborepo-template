@@ -2,6 +2,12 @@
 #
 .DS_Store
 
+# TURBO REPO
+.turbo
+build/**
+dist/**
+
+
 ##########################
 # REACT NATIVE SPECIFIC
 ##########################
