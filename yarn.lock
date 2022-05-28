@@ -3799,7 +3799,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@storybook/addon-ondevice-controls@npm:^6.0.1-alpha.0":
+"@storybook/addon-ondevice-controls@npm:^6.0.1-beta.6":
   version: 6.0.1-beta.6
   resolution: "@storybook/addon-ondevice-controls@npm:6.0.1-beta.6"
   dependencies:
@@ -24064,7 +24064,7 @@ __metadata:
     "@storybook/addon-links": ~6.5.5
     "@storybook/addon-ondevice-actions": ^6.0.1-beta.6
     "@storybook/addon-ondevice-backgrounds": ^6.0.1-beta.6
-    "@storybook/addon-ondevice-controls": ^6.0.1-alpha.0
+    "@storybook/addon-ondevice-controls": ^6.0.1-beta.6
     "@storybook/addon-ondevice-notes": ^6.0.1-beta.6
     "@storybook/addon-react-native-web": ^0.0.18
     "@storybook/react": ~6.5.5
