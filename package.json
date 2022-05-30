@@ -13,6 +13,8 @@
     "format": "prettier --write \"**/*.{ts,tsx,md}\""
   },
   "devDependencies": {
+    "husky": "^8.0.1",
+    "lint-staged": "^12.4.3",
     "prettier": "^2.6.2",
     "turbo": "^1.2.14"
   },
