@@ -3,6 +3,11 @@
   "version": "0.0.0",
   "main": "index.js",
   "license": "MIT",
+  "files": [
+    "eslint-rn-native.js",
+    "eslint-rn.js",
+    "eslint-remix.js"
+  ],
   "dependencies": {
     "eslint-config-next": "^12.0.8",
     "eslint-config-prettier": "^8.3.0",
