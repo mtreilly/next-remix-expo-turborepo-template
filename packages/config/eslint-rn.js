@@ -17,7 +17,7 @@ module.exports = {
     ecmaVersion: 2020,
     sourceType: "module",
   },
-  plugins: ["@typescript-eslint", "import", "react"],
+  plugins: ["@typescript-eslint", "import", "react", "simple-import-sort"],
   ignorePatterns: ["**/*.json", "node_modules", "public", "styles", "coverage", "dist", ".turbo"],
   rules: {
     // react
@@ -28,6 +28,8 @@ module.exports = {
       },
     ],
     "no-console": 1,
+    "simple-import-sort/exports": "error",
+    "simple-import-sort/imports": "error",
   },
   overrides: [
     {
