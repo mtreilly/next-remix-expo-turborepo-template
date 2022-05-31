@@ -9446,6 +9446,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "config@workspace:packages/config"
   dependencies:
+    "@remix-run/eslint-config": ^1.5.1
     "@typescript-eslint/eslint-plugin": ^5.26.0
     "@typescript-eslint/parser": ^5.26.0
     eslint: ^8.16.0
