@@ -1,0 +1,3 @@
+/* Only import in this file */
+@import "./tailwind.css";
+@import "./custom.css";

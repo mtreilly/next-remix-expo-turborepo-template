@@ -3,11 +3,14 @@
   "private": true,
   "sideEffects": false,
   "scripts": {
-    "build": "remix build",
-    "dev": "remix dev",
+    "build": "npm run build:css && remix build",
+    "build:css": "cross-env NODE_ENV='production' postcss static/style.css -o app/styles/app.css",
+    "dev": "concurrently \"yarn watch:css\" \"remix dev\"",
     "start": "remix-serve build",
     "lint": "eslint \"app/**/*.{js,jsx,ts,tsx}\" --fix",
-    "lint:nofix": "eslint \"app/**/*.{js,jsx,ts,tsx}\""
+    "lint:nofix": "eslint \"app/**/*.{js,jsx,ts,tsx}\"",
+    "watch:css": "cross-env NODE_ENV='production' postcss static/style.css -o app/styles/app.css --watch",
+    "watch:css:dev": "cross-env NODE_ENV='development' postcss static/style.css -o app/styles/app.css --watch"
   },
   "dependencies": {
     "@remix-run/node": "^1.5.1",
@@ -29,6 +32,7 @@
     "@types/react": "^17.0.45",
     "@types/react-dom": "^17.0.17",
     "autoprefixer": "^10.4.7",
+    "concurrently": "^7.2.1",
     "config": "*",
     "cross-env": "^7.0.3",
     "cssnano": "^5.1.10",
@@ -36,6 +40,7 @@
     "jest": "^28.1.0",
     "postcss": "^8.4.14",
     "postcss-cli": "^9.1.0",
+    "postcss-import": "^14.1.0",
     "tailwindcss": "^3.0.24",
     "tsconfig": "*",
     "typescript": "^4.7.2"
