@@ -1,5 +1,5 @@
 module.exports = {
-  extends: ["prettier"],
+  extends: ["eslint:recommended", "plugin:react/recommended", "prettier"],
   settings: {
     react: {
       version: "detect",
