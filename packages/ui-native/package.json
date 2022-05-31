@@ -12,7 +12,9 @@
     "prestart": "yarn update-stories",
     "storybook-watcher": "sb-rn-watcher --config-path .ondevice",
     "storybook": "start-storybook -p 3021",
-    "build-storybook": "build-storybook"
+    "build-storybook": "build-storybook",
+    "lint": "eslint \"src/**/*.{js,jsx,ts,tsx}\" --fix",
+    "lint:nofix": "eslint \"src/**/*.{js,jsx,ts,tsx}\""
   },
   "dependencies": {
     "@react-native-async-storage/async-storage": "~1.17.5",
@@ -43,7 +45,11 @@
     "@types/react-native": "~0.67.7",
     "babel-loader": "^8.2.5",
     "babel-plugin-react-native-web": "^0.17.7",
+    "detox": "^19.7.0",
+    "detox-expo-helpers": "^0.6.0",
     "eslint": "^8.16.0",
+    "expo-detox-hook": "^1.0.10",
+    "jest": "^28.1.0",
     "jest-expo": "^45.0.1",
     "react-native-testing-library": "^6.0.0",
     "react-test-renderer": "^18.1.0",
