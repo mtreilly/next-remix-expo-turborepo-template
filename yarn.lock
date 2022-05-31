@@ -19982,6 +19982,7 @@ __metadata:
     react-native-web: 0.17.7
     react-test-renderer: ^18.1.0
     tailwindcss: ^3.0.24
+    twrnc: ^3.3.2
     typescript: ~4.7.2
   languageName: unknown
   linkType: soft
@@ -25724,7 +25725,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"tailwindcss@npm:^3.0.24":
+"tailwindcss@npm:>=2.0.0, tailwindcss@npm:^3.0.24":
   version: 3.0.24
   resolution: "tailwindcss@npm:3.0.24"
   dependencies:
@@ -26577,6 +26578,17 @@ __metadata:
   languageName: node
   linkType: hard
 
+"twrnc@npm:^3.3.2":
+  version: 3.3.2
+  resolution: "twrnc@npm:3.3.2"
+  dependencies:
+    tailwindcss: ">=2.0.0"
+  peerDependencies:
+    react-native: ">=0.63.0"
+  checksum: 05cd1098a8a04ea37af5d47fa0c49dad7a579aede9c9d2f3d05a6803639f26e6063cf6584a874f0e76a94f5b7eab8837c5332e9611d2931d2012b5d2346b064a
+  languageName: node
+  linkType: hard
+
 "type-check@npm:^0.4.0, type-check@npm:~0.4.0":
   version: 0.4.0
   resolution: "type-check@npm:0.4.0"
@@ -26783,6 +26795,7 @@ __metadata:
     react-native-web: ^0.17.7
     react-test-renderer: ^18.1.0
     tailwindcss: ^3.0.24
+    twrnc: ^3.3.2
     typescript: ~4.7.2
   languageName: unknown
   linkType: soft
@@ -26819,6 +26832,7 @@ __metadata:
     react: ^18.1.0
     react-dom: ^18.1.0
     tailwindcss: ^3.0.24
+    twrnc: ^3.3.2
     typescript: ^4.7.2
     vite: ^2.9.9
   languageName: unknown
@@ -27792,6 +27806,7 @@ __metadata:
     react-dom: ^18.1.0
     tailwindcss: ^3.0.24
     tsconfig: "*"
+    twrnc: ^3.3.2
     typescript: ^4.7.2
     ui-web: "*"
   languageName: unknown
