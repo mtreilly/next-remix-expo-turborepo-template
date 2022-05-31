@@ -7,7 +7,7 @@
     "forceConsistentCasingInFileNames": true,
     "lib": ["DOM", "DOM.Iterable", "ES2019"],
     "paths": {
-      "~/*": ["./app/*"]
+      "~/*": ["src/*"]
     },
     "strict": true,
     "target": "ES2019",

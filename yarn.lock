@@ -6112,15 +6112,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/react-dom@npm:^17.0.17":
-  version: 17.0.17
-  resolution: "@types/react-dom@npm:17.0.17"
-  dependencies:
-    "@types/react": ^17
-  checksum: 23caf98aa03e968811560f92a2c8f451694253ebe16b670929b24eaf0e7fa62ba549abe9db0ac028a9d8a9086acd6ab9c6c773f163fa21224845edbc00ba6232
-  languageName: node
-  linkType: hard
-
 "@types/react-dom@npm:^18.0.0, @types/react-dom@npm:^18.0.5":
   version: 18.0.5
   resolution: "@types/react-dom@npm:18.0.5"
@@ -6159,7 +6150,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/react@npm:^17, @types/react@npm:^17.0.45, @types/react@npm:~17.0.45":
+"@types/react@npm:~17.0.45":
   version: 17.0.45
   resolution: "@types/react@npm:17.0.45"
   dependencies:
@@ -23127,7 +23118,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"react@npm:17.0.2, react@npm:^17.0.2":
+"react@npm:17.0.2":
   version: 17.0.2
   resolution: "react@npm:17.0.2"
   dependencies:
@@ -27785,8 +27776,8 @@ __metadata:
     "@tailwindcss/ui": ^0.7.2
     "@testing-library/jest-dom": ^5.16.4
     "@testing-library/react": ^13.3.0
-    "@types/react": ^17.0.45
-    "@types/react-dom": ^17.0.17
+    "@types/react": ^18.0.9
+    "@types/react-dom": ^18.0.5
     autoprefixer: ^10.4.7
     concurrently: ^7.2.1
     config: "*"
@@ -27797,8 +27788,8 @@ __metadata:
     postcss: ^8.4.14
     postcss-cli: ^9.1.0
     postcss-import: ^14.1.0
-    react: ^17.0.2
-    react-dom: ^17.0.2
+    react: ^18.1.0
+    react-dom: ^18.1.0
     tailwindcss: ^3.0.24
     tsconfig: "*"
     typescript: ^4.7.2

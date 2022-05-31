@@ -1,7 +1,7 @@
 const whiteListCSS = [];
 
 module.exports = {
-  content: ["./app/**/*.{js,jsx,ts,tsx,svg}", "./app/**/*.html"],
+  content: ["./src/**/*.{js,jsx,ts,tsx,svg}", "./src/**/*.html"],
   safelist: whiteListCSS,
   theme: {
     extend: {
