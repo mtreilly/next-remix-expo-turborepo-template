@@ -10,7 +10,12 @@
     "lint": "eslint \"src/**/*.{js,jsx,ts,tsx}\" --fix",
     "lint:nofix": "eslint \"src/**/*.{js,jsx,ts,tsx}\"",
     "watch:css": "cross-env NODE_ENV='production' postcss static/style.css -o src/styles/app.css --watch",
-    "watch:css:dev": "cross-env NODE_ENV='development' postcss static/style.css -o src/styles/app.css --watch"
+    "watch:css:dev": "cross-env NODE_ENV='development' postcss static/style.css -o src/styles/app.css --watch",
+    "test": "jest ./src",
+    "test:watch": "jest ./src --watch",
+    "test:playwright": "playwright test",
+    "py:open": "playwright open",
+    "py:codegen": "playwright codegen"
   },
   "dependencies": {
     "@remix-run/node": "^1.5.1",
@@ -21,6 +26,7 @@
     "ui-web": "*"
   },
   "devDependencies": {
+    "@playwright/test": "^1.22.2",
     "@remix-run/dev": "^1.5.1",
     "@remix-run/eslint-config": "^1.5.1",
     "@tailwindcss/aspect-ratio": "^0.4.0",
