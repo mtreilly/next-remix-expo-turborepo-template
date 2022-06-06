@@ -1,5 +1,16 @@
 import React from "react";
 
-const Button = () => <button>Hello</button>;
+interface ButtonProps {
+  label: string;
+  classNames?: string;
+}
+
+const Button = ({ label, classNames }: ButtonProps) => {
+  return (
+    <button type="button" className="px-3 py-1 bg-green-400 rounded-lg">
+      {label}
+    </button>
+  );
+};
 
 export default Button;

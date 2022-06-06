@@ -6,7 +6,8 @@
   "files": [
     "eslint-rn-native.js",
     "eslint-rn.js",
-    "eslint-remix.js"
+    "eslint-remix.js",
+    "jest-rn.js"
   ],
   "dependencies": {
     "@remix-run/eslint-config": "^1.5.1",

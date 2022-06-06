@@ -1,11 +1,11 @@
 import { render, screen } from "@testing-library/react";
 import React from "react";
 
-import Button from "./Button";
+import Label from "./Label";
 
 describe("tests", () => {
   it("should", () => {
-    render(<Button label={"test"} />);
+    render(<Label label={"test"} />);
     expect(screen.getByText("test")).toBeInTheDocument();
   });
 });
