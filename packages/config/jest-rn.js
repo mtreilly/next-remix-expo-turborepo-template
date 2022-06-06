@@ -10,4 +10,7 @@ module.exports = {
   },
   coveragePathIgnorePatterns: [],
   coverageThreshold: null,
+  moduleNameMapper: {
+    "\\.(css|less)$": "<rootDir>/__mocks__/styleMock.js",
+  },
 };

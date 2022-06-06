@@ -3,10 +3,10 @@
   "display": "Remix-run",
   "extends": "./base.json",
   "compilerOptions": {
-    "lib": ["DOM", "DOM.Iterable", "ES2019"],
+    "lib": ["DOM", "DOM.Iterable", "ESNext"],
     "jsx": "react-jsx",
     "resolveJsonModule": true,
-    "target": "ES2019",
+    "target": "ESNext",
     "allowJs": true,
     "baseUrl": ".",
     "paths": {

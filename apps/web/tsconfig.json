@@ -5,17 +5,18 @@
     "baseUrl": ".",
     "allowJs": true,
     "forceConsistentCasingInFileNames": true,
-    "lib": ["DOM", "DOM.Iterable", "ES2019"],
+    "lib": ["DOM", "DOM.Iterable", "ESNext"],
     "paths": {
       "~/*": ["src/*"]
     },
     "strict": true,
-    "target": "ES2019",
+    "target": "ESNext",
     "esModuleInterop": true,
     "isolatedModules": true,
     "jsx": "react-jsx",
     "moduleResolution": "node",
     "noEmit": true,
     "resolveJsonModule": true
-  }
+  },
+  "exclude": ["node_modules", ".turbo", "coverage", "dist", "src/**/*.test.ts", "src/**/*.test.tsx"]
 }

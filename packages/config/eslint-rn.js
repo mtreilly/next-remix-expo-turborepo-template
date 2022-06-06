@@ -27,6 +27,7 @@ module.exports = {
         namedComponents: "arrow-function",
       },
     ],
+    "react/react-in-jsx-scope": "off",
     "no-console": 1,
     "simple-import-sort/exports": "error",
     "simple-import-sort/imports": "error",

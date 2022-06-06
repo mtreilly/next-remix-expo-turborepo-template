@@ -1,3 +1,5 @@
+import "../../assets/css/style.css";
+
 import React from "react";
 
 interface ButtonProps {
@@ -5,9 +7,9 @@ interface ButtonProps {
   classNames?: string;
 }
 
-const Button = ({ label, classNames }: ButtonProps) => {
+const Button = ({ label }: ButtonProps) => {
   return (
-    <button type="button" className="px-3 py-1 bg-green-400 rounded-lg">
+    <button type="button" className="px-3 py-1 bg-yellow-400 rounded-lg">
       {label}
     </button>
   );

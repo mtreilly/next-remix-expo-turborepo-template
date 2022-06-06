@@ -3,6 +3,8 @@ import "./App.css";
 import React from "react";
 import { useState } from "react";
 
+import Button from "./components/Button/Button";
+import Toggle from "./components/Toggle/Toggle";
 import logo from "./logo.svg";
 
 const App = () => {
@@ -17,6 +19,7 @@ const App = () => {
           <button type="button" onClick={() => setCount((count) => count + 1)}>
             count is: {count}
           </button>
+          <Button label={"test"} />
         </p>
         <p>
           Edit <code>App.tsx</code> and save to test HMR updates.
