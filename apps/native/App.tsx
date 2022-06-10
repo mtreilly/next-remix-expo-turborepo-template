@@ -5,9 +5,8 @@ import Button from "./src/Button";
 export default function App() {
   return (
     <View style={styles.container}>
-      <Text>Open up App.tsx to start working on your app!</Text>
+      <Text>Open up App.tsx to start working on your app Native!</Text>
       <StatusBar style="auto" />
-      <Button />
     </View>
   );
 }
