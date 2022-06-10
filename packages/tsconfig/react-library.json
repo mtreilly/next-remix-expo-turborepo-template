@@ -3,9 +3,14 @@
   "display": "React Library",
   "extends": "./base.json",
   "compilerOptions": {
-    "lib": ["ESNext"],
+    "lib": ["DOM", "DOM.Iterable", "ESNext"],
     "module": "ESNext",
     "target": "ESNext",
-    "jsx": "react-jsx"
+    "jsx": "react-jsx",
+    "useDefineForClassFields": true,
+    "allowJs": false,
+    "allowSyntheticDefaultImports": true,
+    "resolveJsonModule": true,
+    "noEmit": true
   }
 }

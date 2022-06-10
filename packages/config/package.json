@@ -7,9 +7,11 @@
     "eslint-rn-native.js",
     "eslint-rn.js",
     "eslint-remix.js",
-    "jest-rn.js"
+    "jest-rn.js",
+    "jest-rn-native.js"
   ],
   "dependencies": {
+    "@react-native-community/eslint-config": "^3.0.2",
     "@remix-run/eslint-config": "^1.5.1",
     "@typescript-eslint/eslint-plugin": "^5.27.0",
     "@typescript-eslint/parser": "^5.27.0",
