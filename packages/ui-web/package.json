@@ -21,8 +21,10 @@
     "py:codegen": "playwright codegen"
   },
   "dependencies": {
+    "@xstate/react": "^3.0.0",
     "react": "^18.1.0",
-    "react-dom": "^18.1.0"
+    "react-dom": "^18.1.0",
+    "xstate": "latest"
   },
   "devDependencies": {
     "@babel/core": "^7.18.2",

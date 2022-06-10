@@ -4,7 +4,6 @@ import React from "react";
 import { useState } from "react";
 
 import Button from "./components/Button/Button";
-import Toggle from "./components/Toggle/Toggle";
 import logo from "./logo.svg";
 
 const App = () => {
