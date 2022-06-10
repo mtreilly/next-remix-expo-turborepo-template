@@ -27,4 +27,4 @@ dist-ssr
 /playwright/.cache/
 
 # Ignore auto generated style.css
-packages/ui-web/src/assets/css/style.css
+src/assets/css/style.css
