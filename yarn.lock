@@ -5711,15 +5711,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/react-native@npm:~0.66.18":
-  version: 0.66.18
-  resolution: "@types/react-native@npm:0.66.18"
-  dependencies:
-    "@types/react": "*"
-  checksum: b9422ba60d6d154f70f7522fe1aeec1b9d22fba374905b2a7efca1c5a66a8b93cbd42abb41dad6ef21bce32025604000ae146470d31582180bbd618fbd0a30cc
-  languageName: node
-  linkType: hard
-
 "@types/react-native@npm:~0.67.8":
   version: 0.67.8
   resolution: "@types/react-native@npm:0.67.8"
@@ -7317,7 +7308,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"array-find-index@npm:^1.0.1, array-find-index@npm:^1.0.2":
+"array-find-index@npm:^1.0.1":
   version: 1.0.2
   resolution: "array-find-index@npm:1.0.2"
   checksum: aac128bf369e1ac6c06ff0bb330788371c0e256f71279fb92d745e26fb4b9db8920e485b4ec25e841c93146bf71a34dcdbcefa115e7e0f96927a214d237b7081
@@ -16106,7 +16097,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"hyphenate-style-name@npm:^1.0.2, hyphenate-style-name@npm:^1.0.4":
+"hyphenate-style-name@npm:^1.0.2":
   version: 1.0.4
   resolution: "hyphenate-style-name@npm:1.0.4"
   checksum: 4f5bf4b055089754924babebaa23c17845937bcca6aee95d5d015f8fa1e6814279002bd6a9e541e3fac2cd02519fc76305396727066c57c8e21a7e73e7a12137
@@ -20808,23 +20799,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"native-2@workspace:apps/native-2":
-  version: 0.0.0-use.local
-  resolution: "native-2@workspace:apps/native-2"
-  dependencies:
-    "@babel/core": ^7.18.5
-    "@types/react": ~17.0.45
-    "@types/react-native": ~0.66.18
-    expo: ~45.0.5
-    expo-status-bar: ~1.3.0
-    react: 17.0.2
-    react-dom: 17.0.2
-    react-native: 0.68.2
-    react-native-web: 0.17.7
-    typescript: ~4.7.3
-  languageName: unknown
-  linkType: soft
-
 "native@workspace:apps/native":
   version: 0.0.0-use.local
   resolution: "native@workspace:apps/native"
@@ -20850,7 +20824,7 @@ __metadata:
     react-dom: 17.0.2
     react-native: 0.68.2
     react-native-testing-library: ^6.0.0
-    react-native-web: 0.17.7
+    react-native-web: 0.18.0
     react-test-renderer: ^18.1.0
     tailwindcss: ^3.1.2
     twrnc: ^3.3.2
@@ -24197,21 +24171,21 @@ __metadata:
   languageName: node
   linkType: hard
 
-"react-native-web@npm:0.17.7, react-native-web@npm:^0.17.7":
-  version: 0.17.7
-  resolution: "react-native-web@npm:0.17.7"
+"react-native-web@npm:0.18.0, react-native-web@npm:^0.18.0":
+  version: 0.18.0
+  resolution: "react-native-web@npm:0.18.0"
   dependencies:
-    array-find-index: ^1.0.2
     create-react-class: ^15.7.0
     fbjs: ^3.0.0
-    hyphenate-style-name: ^1.0.4
     inline-style-prefixer: ^6.0.0
     normalize-css-color: ^1.0.2
+    postcss-value-parser: ^4.2.0
     prop-types: ^15.6.0
+    styleq: 0.1.0
   peerDependencies:
-    react: ">=17.0.1"
-    react-dom: ">=17.0.1"
-  checksum: 9a32073d18e12f7d0e77befc0489f07a60e4aea9b7d6da9228387f488956b8f3e04eff02102f70bc427d8ee5047b6f393dc6cb4b3d34501504b9799344054e34
+    react: ">=17.0.2"
+    react-dom: ">=17.0.2"
+  checksum: 951f9e2a37953eb857f0901efd776f97532ab6cb7d58fea754a5edb7bfc25e8232cf9835e56cb7d67d824031c9ff87eba7380e1b801f8d46a0a03b472e5846fa
   languageName: node
   linkType: hard
 
@@ -27003,6 +26977,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"styleq@npm:0.1.0":
+  version: 0.1.0
+  resolution: "styleq@npm:0.1.0"
+  checksum: 19ad4fd866deda82a6a41a450e229bb68487ed0e5c1e646cde25103dbb788034891ad8dcf2faa68c09566c632303efaa83067346848a9d76a26b5b994f9bd413
+  languageName: node
+  linkType: hard
+
 "sucrase@npm:^3.20.0":
   version: 3.21.0
   resolution: "sucrase@npm:3.21.0"
@@ -28352,7 +28333,7 @@ __metadata:
     react-dom: ^17.0.2
     react-native: 0.68.2
     react-native-testing-library: ^6.0.0
-    react-native-web: ^0.17.7
+    react-native-web: ^0.18.0
     react-test-renderer: 18.1.0
     tailwindcss: ^3.1.2
     twrnc: ^3.3.2
