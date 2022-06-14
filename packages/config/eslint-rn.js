@@ -18,7 +18,7 @@ module.exports = {
     sourceType: "module",
   },
   plugins: ["@typescript-eslint", "import", "react", "simple-import-sort"],
-  ignorePatterns: ["**/*.json", "node_modules", "public", "styles", "coverage", "dist", ".turbo"],
+  ignorePatterns: ["**/*.json", "node_modules", "public", "styles", "coverage", "dist", ".turbo", "metro.config.js"],
   rules: {
     // react
     "react/function-component-definition": [
