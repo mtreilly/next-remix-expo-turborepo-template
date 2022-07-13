@@ -1,18 +1,20 @@
 // src/pages/_app.tsx
-import { withTRPC } from "@trpc/next";
-import type { AppRouter } from "../server/router";
-import type { AppType } from "next/dist/shared/lib/utils";
-import superjson from "superjson";
-import { SessionProvider } from "next-auth/react";
 import "../styles/globals.css";
 
-const MyApp: AppType = ({
-  Component,
-  pageProps: { session, ...pageProps },
-}) => {
+import Layout from "@src/layouts/Layout";
+import { withTRPC } from "@trpc/next";
+import type { AppType } from "next/dist/shared/lib/utils";
+import { SessionProvider } from "next-auth/react";
+import superjson from "superjson";
+
+import type { AppRouter } from "../server/router";
+
+const MyApp: AppType = ({ Component, pageProps: { session, ...pageProps } }) => {
   return (
     <SessionProvider session={session}>
-      <Component {...pageProps} />
+      <Layout>
+        <Component {...pageProps} />
+      </Layout>
     </SessionProvider>
   );
 };
