@@ -1,5 +1,5 @@
 {
-  "name": "web",
+  "name": "blog",
   "private": true,
   "sideEffects": false,
   "scripts": {

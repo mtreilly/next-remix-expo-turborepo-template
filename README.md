@@ -1,7 +1,7 @@
 # WORK IN PROGRESS
 
-## remix-expo-turborepo-template
-Turborepo Template with a Remix, React, Expo and React Native
+## next-remix-expo-turborepo-template
+Turborepo Template with Next, Remix, React, Expo and React Native
 
 ## About
 
