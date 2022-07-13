@@ -4,6 +4,7 @@
   "main": "index.js",
   "license": "MIT",
   "files": [
+    "eslint-next.js",
     "eslint-rn-native.js",
     "eslint-rn.js",
     "eslint-remix.js",
@@ -11,15 +12,18 @@
     "jest-rn-native.js"
   ],
   "dependencies": {
+    "@babel/core": "^7.18.6",
+    "@babel/eslint-parser": "^7.18.2",
+    "@next/eslint-plugin-next": "^12.2.2",
     "@react-native-community/eslint-config": "^3.0.2",
     "@remix-run/eslint-config": "^1.5.1",
     "@typescript-eslint/eslint-plugin": "^5.28.0",
-    "@typescript-eslint/parser": "^5.28.0",
+    "@typescript-eslint/parser": "^5.30.6",
     "eslint": "^8.17.0",
     "eslint-config-airbnb": "^19.0.4",
     "eslint-config-airbnb-base": "^15.0.0",
     "eslint-config-airbnb-typescript": "^17.0.0",
-    "eslint-config-next": "^12.1.6",
+    "eslint-config-next": "^12.2.2",
     "eslint-config-prettier": "^8.5.0",
     "eslint-config-universe": "^11.0.0",
     "eslint-plugin-import": "^2.26.0",
@@ -30,6 +34,7 @@
     "eslint-plugin-react-native": "^4.0.0",
     "eslint-plugin-simple-import-sort": "^7.0.0",
     "eslint-plugin-testing-library": "^5.5.1",
+    "next": "^12.2.2",
     "typescript": "^4.7.3"
   },
   "publishConfig": {
