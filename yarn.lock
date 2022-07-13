@@ -29376,9 +29376,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"web@workspace:apps/web":
+"web@workspace:apps/blog":
   version: 0.0.0-use.local
-  resolution: "web@workspace:apps/web"
+  resolution: "web@workspace:apps/blog"
   dependencies:
     "@playwright/test": ^1.22.2
     "@remix-run/dev": ^1.5.1
